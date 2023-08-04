@@ -157,17 +157,45 @@ body {
 
 .left-modal {
     flex: 1;
+    margin-left: 100px;
+}
+
+.button-header {
+    font-size: 24px;
+    color: #E5E7EB;
+    font-weight: bold;
+    
+}
+
+.button-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
 }
 
 .right-modal{
     flex: 1;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    margin-right: 100px;
 }
 
 .github {
     display: flex;
     justify-content: flex-end;
+    border-radius: 9px;
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    width: 120px;
+    height: 30px;
+    font-size: 18px;
+    font-family: 18px;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    font-weight: bold;
 }
 
 
