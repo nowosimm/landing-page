@@ -1,0 +1,177 @@
+body {
+    font-family: roboto;
+    margin: 0;
+}
+
+.header{
+    background-color: #1f2937;
+    padding-bottom: 50px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.right-text, .left-text {
+    flex: 1;
+}
+
+.right-text {
+    justify-content: flex-end;
+    gap: 15px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 120px;
+    margin-top: 30px;
+}
+
+.left-text {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 120px;
+    margin-top: 30px;
+    
+}
+
+.subheader {
+    display: flex;
+    margin-top: 100px;
+}
+
+.subheader-text {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 120px;
+    padding-right: 50px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8 ;
+}
+
+.welcome-description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.welcome-image {
+    height: auto;
+    width: 200px;
+    margin-right: 120px;
+    display: flex;
+    flex: 1;
+}
+
+.email {
+    background-color: #3882F6;
+    width: 90px;
+    border-radius: 7px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 18px;
+    color: #1f2937;
+    padding-bottom: 100px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.body-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote-backround {
+    background-color: #E5E7EB;
+    padding: 30px 0;
+}
+
+.quote-text {
+    display: flex;
+    align-items: center;
+    margin: 0px 350px;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+
+.contribution {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 350px;
+    font-size: 24px;
+}
+
+.contribution p {
+    margin: 0;
+}
+
+
+
+.button-footer {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+}
+
+.modal {
+    width: 800px;
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 15px;
+}
+
+.modal-text {
+    display: flex;
+    flex: 1;
+}
+
+.left-modal {
+    flex: 1;
+}
+
+.right-modal{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.github {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
